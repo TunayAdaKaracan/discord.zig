@@ -23,9 +23,9 @@
     // Once all dependencies are fetched, `zig build` no longer requires
     // internet connectivity.
     .dependencies = .{
-        .@"zig-deque" = .{
+        .zigdeque = .{
             .url = "https://github.com/TunayAdaKaracan/zig-deque/archive/refs/heads/main.zip",
-            .hash = "d0648115ca08282f21fe594585d31687a34359952b036b3136949273cdb31737",
+            .hash = "3eeb14b7a545c8ce6b88caad6eb428820fdd123655c4e3651d2d149c04925882",
         },
         .zlib = .{
             .url = "https://github.com/yuzudev/zig-zlib/archive/refs/heads/main.zip",
